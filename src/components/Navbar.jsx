@@ -3,7 +3,7 @@ import { useState } from "react";
 function Navbar() {
   return (
     <div id="Navbar">
-      <h2>navbar</h2>
+      <h2>skills</h2>
     </div>
   );
 }
