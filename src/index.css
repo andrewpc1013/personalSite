@@ -76,3 +76,11 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+#test {
+  color: gray;
+}
+
+.navbar {
+  padding: 0px;
+}
