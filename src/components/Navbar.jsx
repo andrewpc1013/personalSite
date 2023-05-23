@@ -26,45 +26,44 @@ function Navbar() {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Skills</a>
+              <a href="#Skills">Skills</a>
             </li>
             <li>
-              <a>Timeline</a>
+              <a href="#Timeline">Timeline</a>
             </li>
             <li>
-              <a>Projects</a>
+              <a href="#Projects">Projects</a>
             </li>
             <li>
-              <a>Hobbies</a>
+              <a href="#Hobbies">Hobbies</a>
             </li>
             <li>
-              <a>Contact</a>
+              <a href="#Contact">Contact</a>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <a className="btn btn-ghost normal-case text-xl" href="/">
+          Andrew Conlin
+        </a>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Skills</a>
+            <a href="#Skills">Skills</a>
           </li>
           <li>
-            <a>Timeline</a>
+            <a href="#Timeline">Timeline</a>
           </li>
           <li>
-            <a>Projects</a>
+            <a href="#Projects">Projects</a>
           </li>
           <li>
-            <a>Hobbies</a>
+            <a href="#Hobbies">Hobbies</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a href="#Contact">Contact</a>
           </li>
         </ul>
-      </div>
-      <div className="navbar-end">
-        <a className="btn">Get started</a>
       </div>
     </div>
   );

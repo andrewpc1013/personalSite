@@ -7,7 +7,7 @@ const Projects = () => {
   };
 
   return (
-    <div>
+    <div id="Projects">
       <div className="card w-96 bg-gray-300 shadow-xl p-0">
         <figure>
           <img src={ebazon} alt="ebazon e-commerce site home page" />

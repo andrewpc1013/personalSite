@@ -1,7 +1,7 @@
 import React from "react";
 
 const Hobbies = () => {
-  return <div>Hobbies</div>;
+  return <div id="Hobbies">Hobbies</div>;
 };
 
 export default Hobbies;
