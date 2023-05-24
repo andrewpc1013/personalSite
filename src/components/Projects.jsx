@@ -8,6 +8,7 @@ const Projects = () => {
 
   return (
     <div id="Projects">
+      <h1>Projects</h1>
       <div className="card w-96 bg-gray-300 shadow-xl p-0">
         <figure>
           <img src={ebazon} alt="ebazon e-commerce site home page" />
@@ -20,7 +21,7 @@ const Projects = () => {
           </p>
           <div className="card-actions justify-end">
             <a href="https://ebazon.netlify.app/" target="_blank">
-              <button className="btn btn-primary">Site -&gt;</button>
+              <button className="btn btn-primary">Site</button>
             </a>
           </div>
         </div>
@@ -40,7 +41,7 @@ const Projects = () => {
               href="https://fitness-tracker-andrew-miguel.netlify.app/"
               target="_blank"
             >
-              <button className="btn btn-primary">Site -&gt;</button>
+              <button className="btn btn-primary">Site</button>
             </a>
           </div>
         </div>
@@ -60,7 +61,7 @@ const Projects = () => {
               href="https://strangers-things-andrew-emilio.netlify.app/"
               target="_blank"
             >
-              <button className="btn btn-primary">Site -&gt;</button>
+              <button className="btn btn-primary">Site</button>
             </a>
           </div>
         </div>
