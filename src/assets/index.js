@@ -6,6 +6,7 @@ import FitnessTracker from "./FitnessTracker.png";
 import StrangersThings from "./StrangersThings.png";
 import Running from "./Running.png";
 import Camping from "./Camping.jpg";
+import flappyBird from "./flappyBird.png";
 
 export {
   FSLogo,
@@ -16,4 +17,5 @@ export {
   StrangersThings,
   Running,
   Camping,
+  flappyBird,
 };
