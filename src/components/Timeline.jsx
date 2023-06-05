@@ -9,7 +9,7 @@ import { FSLogo, Infinity, ULLogo } from "../assets";
 const Timeline = () => {
   return (
     <div id="Timeline">
-      <h1>Timeline</h1>
+      <h1>My Timeline</h1>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
