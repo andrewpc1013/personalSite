@@ -5,8 +5,9 @@ const Skills = () => {
   return (
     <div id="Skills">
       <div className="skills">
-        <h2>I have experience with these technologies</h2>
-        <div className="skillsGrid">
+        <h1 className="font-bold text-5xl pt-6">Technologies </h1>
+        <h2 className="pb-10">I have experience with:</h2>
+        <div className="skillsGrid pb-10">
           <Skill
             source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
             alt="The logo icon for react"

@@ -9,7 +9,7 @@ import { FSLogo, Infinity, ULLogo } from "../assets";
 const Timeline = () => {
   return (
     <div id="Timeline">
-      <h1>My Timeline</h1>
+      <h1 className="font-bold text-5xl pt-6 pb-4">My Timeline</h1>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -19,7 +19,7 @@ const Timeline = () => {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<img src={ULLogo} alt="ULLogo" />}
         >
-          <h3 className="vertical-timeline-element-title">
+          <h3 className="vertical-timeline-element-title verticalTimelineElementTitle">
             Bachelor's Degree in Mechanical Engineering
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -53,7 +53,7 @@ const Timeline = () => {
               professional engineers.
             </li>
             <li>
-              Managed projects including client communication, team management,
+              Managed projects with client communication, team management,
               budget management
             </li>
           </ul>

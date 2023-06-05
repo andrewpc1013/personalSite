@@ -37,9 +37,9 @@ function Navbar() {
             <li>
               <a href="#Hobbies">Hobbies</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#Contact">Contact</a>
-            </li>
+            </li> */}
           </ul>
         </div>
         <a className="btn btn-ghost normal-case text-xl" href="/">
@@ -60,9 +60,9 @@ function Navbar() {
           <li>
             <a href="#Hobbies">Hobbies</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#Contact">Contact</a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
