@@ -3,9 +3,9 @@ import { Running, Camping, flappyBird } from "../assets";
 
 const Hobbies = () => {
   return (
-    <div id="Hobbies">
+    <div id="Hobbies" className="bg-blue-100 pt-8">
       <h1 className="font-bold text-5xl pb-6">Hobbies</h1>
-      <div className="hero bg-base-200">
+      <div className="hero">
         <div className="hero-content flex-col lg:flex-row">
           <img src={flappyBird} className="max-w-sm rounded-lg shadow-2xl" />
           <div className="max-w-md">
@@ -18,7 +18,7 @@ const Hobbies = () => {
           </div>
         </div>
       </div>
-      <div className="hero bg-base-200">
+      <div className="hero">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src={Running} className="max-w-sm rounded-lg shadow-2xl" />
           <div className="max-w-md">
@@ -31,7 +31,7 @@ const Hobbies = () => {
           </div>
         </div>
       </div>
-      <div className="hero bg-base-200">
+      <div className="hero">
         <div className="hero-content flex-col lg:flex-row">
           <img src={Camping} className="max-w-sm rounded-lg shadow-2xl" />
           <div className="max-w-md">

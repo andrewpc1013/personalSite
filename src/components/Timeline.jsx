@@ -8,12 +8,12 @@ import { FSLogo, Infinity, ULLogo } from "../assets";
 
 const Timeline = () => {
   return (
-    <div id="Timeline">
+    <div id="Timeline" className="bg-blue-100">
       <h1 className="font-bold text-5xl pt-6 pb-4">My Timeline</h1>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "lightgray", color: "black" }}
+          contentStyle={{ background: "rgb(147 197 253)", color: "black" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="August 2014 - May 2018"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
@@ -35,7 +35,7 @@ const Timeline = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "lightgray", color: "black" }}
+          contentStyle={{ background: "rgb(147 197 253)", color: "black" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="February 2019 - November 2022"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
@@ -60,7 +60,7 @@ const Timeline = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "lightgray", color: "black" }}
+          contentStyle={{ background: "rgb(147 197 253)", color: "black" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="January 2023 - April 2023"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}

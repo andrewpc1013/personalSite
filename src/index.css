@@ -98,7 +98,7 @@ button:focus-visible {
     width: 75px;
   }
   .skills {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -122,7 +122,7 @@ button:focus-visible {
     width: 100px;
   }
   .skills {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -146,7 +146,7 @@ button:focus-visible {
     width: 150px;
   }
   .skills {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     display: flex;
     flex-direction: column;
     margin-left: auto;

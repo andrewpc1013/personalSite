@@ -2,7 +2,7 @@ import React from "react";
 
 const Description = () => {
   return (
-    <div id="Description" className="bg-gray-200 justify-center flex-auto">
+    <div id="Description" className="bg-blue-100 justify-center flex-auto">
       <h1 className="text-4xl py-8">
         I'm <b className="text-5xl">Andrew Conlin</b>
       </h1>
