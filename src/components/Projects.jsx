@@ -13,7 +13,7 @@ const Projects = () => {
         id="ProjectCards"
         className="flex flex-row justify-center space-x-5 m-10"
       >
-        <div className="card w-96 bg-blue-200 shadow-xl p-0">
+        <div className="card w-96 bg-blue-300 shadow-xl p-0">
           <figure>
             <img src={ebazon} alt="ebazon e-commerce site home page" />
           </figure>
@@ -30,7 +30,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-blue-200 shadow-xl p-0">
+        <div className="card w-96 bg-blue-300 shadow-xl p-0">
           <figure>
             <img src={FitnessTracker} alt="Fitness tracker site home page" />
           </figure>
@@ -50,7 +50,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-blue-200 shadow-xl p-0">
+        <div className="card w-96 bg-blue-300 shadow-xl p-0">
           <figure>
             <img src={StrangersThings} alt="craigslist-style site home page" />
           </figure>
